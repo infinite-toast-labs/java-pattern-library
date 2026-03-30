@@ -35,7 +35,13 @@ public class ArrayAlgosImpl {
                 j--;
             }
             arr[j] = currentVal;
+
         }
-        return arr;
+        System.out.println("found: " + java.util.Arrays.binarySearch(arr, 6));
+
+        return java.util.Arrays.copyOfRange(arr, 3, 10);
+
+//        return java.util.Arrays.copyOf(arr, 30);
+//        return arr;
     }
 }

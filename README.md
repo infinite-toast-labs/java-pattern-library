@@ -2,9 +2,13 @@ Pattern Library
 
 ## Phase 1
 
-- [ ] Array / dynamic array
-- [ ] Linked list (singly, doubly)
-- [ ] Stack, Queue, Deque
+- [x] Array
+- [ ] Dynamic Array
+- [x] Singly Linked List
+- [ ] Doubly Linked List
+- [ ] Stack
+- [ ] Queue
+- [ ] Deque
 - [ ] HashMap (understand hashing + collision handling)
 - [ ] Binary tree, BST
 - [ ] Heap / priority queue

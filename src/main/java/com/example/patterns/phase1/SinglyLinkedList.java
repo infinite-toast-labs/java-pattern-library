@@ -109,6 +109,8 @@ public class SinglyLinkedList<E> {
         if (head != null) {
             Node<E> newHead = head.getNext();
 
+            // do two lines below work?
+            // todo: add tests
             first = head;
             head = newHead;
             size--;

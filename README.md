@@ -7,9 +7,22 @@ Pattern Library
 - [x] Singly Linked List
 - [x] Circulary Linked List
 - [x] Doubly Linked List
-- [ ] Stack
+- [ ] Stacks
+  - [x] Stack interface
+  - [ ] Array Stack
+  - [ ] Linked Stack
 - [ ] Queue
+  - [ ] Queue interface
+  - [ ] ArrayQueue
+  - [ ] LinkedQueue
+  - [ ] CircularQueue (Interface)
+  - [ ] LinkedCircularQueue
+  - [ ] Josephus Problem
+
 - [ ] Deque
+  - [ ] Deque Interface
+  - [ ] ArrayDeque
+  - [ ] LinkedDeque (using doubly linked list)
 - [ ] HashMap (understand hashing + collision handling)
 - [ ] Binary tree, BST
 - [ ] Heap / priority queue

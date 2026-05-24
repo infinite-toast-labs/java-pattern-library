@@ -1,8 +1,8 @@
 package com.example.patterns.phase1;
 
-import java.util.Stack;
+import com.example.patterns.phase1.api.Stack;
 
-public class ArrayStack<E> extends Stack<E> {
+public class ArrayStack<E> implements Stack<E> {
     public static final int CAPACITY = 3;
     private E[] data;
     private int t = -1;
@@ -10,19 +10,23 @@ public class ArrayStack<E> extends Stack<E> {
     public ArrayStack(int capacity) {
         data = (E[]) new Object[capacity];   
     }
-    public int size() {return (t+1);}
 
+    @Override
+    public int size() {return (t+1);}
+    
+    @Override
     public boolean isEmpty() { return(t==-1);}
 
-    public E push(E e) {
+    @Override
+    public void push(E e) {
         if (size() == data.length) {
             throw new IllegalStateException("Stack is full");
         }
        t=t+1;
        data[t]=e;
-       return e;
     }
 
+    @Override
     public E top() {
         if (t<0){
             return null;
@@ -31,6 +35,7 @@ public class ArrayStack<E> extends Stack<E> {
         }
     }
 
+    @Override
     public E pop() {
         if (isEmpty()) {
             return null;

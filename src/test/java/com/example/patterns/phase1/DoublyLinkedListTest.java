@@ -7,7 +7,29 @@ public class DoublyLinkedListTest {
     
     @Test
     public void doublyLinkedListTest() {
-        Assertions.fail();
+        DoublyLinkedList<Integer> list = new DoublyLinkedList();
+
+        list.addFirst(3);
+        list.addFirst(2);
+        list.addFirst(1);
+
+        Assertions.assertTrue(list.size() == 3);
+        System.out.println(list);
+
+        list.addLast(7);
+        list.addLast(8);
+        Assertions.assertTrue(list.size() == 5);
+        System.out.println(list);
+
+        list.removeFirst();
+
+        Assertions.assertTrue(list.size() == 4);
+        System.out.println(list); 
+        list.removeLast();
+        list.removeLast();
+        Assertions.assertTrue(list.size() == 2);
+
+        System.out.println(list);
     }
 
 }

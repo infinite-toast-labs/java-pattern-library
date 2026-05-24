@@ -6,7 +6,7 @@ Pattern Library
 - [ ] Dynamic Array
 - [x] Singly Linked List
 - [x] Circulary Linked List
-- [ ] Doubly Linked List
+- [x] Doubly Linked List
 - [ ] Stack
 - [ ] Queue
 - [ ] Deque

@@ -7,7 +7,16 @@ public class LinkedStackTest {
 
     @Test
     public void testLinkedStack(){
-        Assertions.fail();
+        LinkedStack<String> stack = new LinkedStack<>();
+        stack.push("hello");
+        stack.push("bye");
+
+        Assertions.assertTrue(stack.size() == 2);
+
+        String first = stack.pop();
+        System.out.println("Popped: " + first);
+
+        Assertions.assertTrue(stack.size() == 1);
     }	
 
 

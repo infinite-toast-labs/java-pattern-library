@@ -7,10 +7,10 @@ Pattern Library
 - [x] Singly Linked List
 - [x] Circulary Linked List
 - [x] Doubly Linked List
-- [ ] Stacks
+- [x] Stacks
   - [x] Stack interface
-  - [ ] Array Stack
-  - [ ] Linked Stack
+  - [x] Array Stack
+  - [x] Linked Stack
 - [ ] Queue
   - [ ] Queue interface
   - [ ] ArrayQueue

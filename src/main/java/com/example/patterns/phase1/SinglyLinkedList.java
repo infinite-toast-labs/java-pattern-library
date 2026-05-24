@@ -98,20 +98,20 @@ public class SinglyLinkedList<E> {
 
     }
 
-    public Node<E> removeFirst() {
+    public E removeFirst() {
         // all we need to do is update head to point to current head's next. if next is null
         // that's fine.
         // first check that head isn't null itself. if it is, can skip and return since there is
         // nothing to remove.
         //
         //
-        Node<E> first = null;
+        E first = null;
         if (head != null) {
             Node<E> newHead = head.getNext();
 
             // do two lines below work?
             // todo: add tests
-            first = head;
+            first = head.getElement();
             head = newHead;
             size--;
         }
